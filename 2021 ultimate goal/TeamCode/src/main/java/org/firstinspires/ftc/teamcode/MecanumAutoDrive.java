@@ -17,7 +17,7 @@ public class MecanumAutoDrive extends LinearOpMode {
             double forward = -this.gamepad1.left_stick_y;
             double turn = this.gamepad1.left_stick_x;
             double strafe = this.gamepad1.right_stick_x;
-            MotrAutoTeleControl.SetPowerToEachMotor(forward+turn+strafe,forward-turn-strafe,forward-turn+strafe,forward+turn-strafe);
+            MotrAutoTeleControl.Drive(forward+turn+strafe,forward-turn-strafe,forward-turn+strafe,forward+turn-strafe);
         }
     }
 }
