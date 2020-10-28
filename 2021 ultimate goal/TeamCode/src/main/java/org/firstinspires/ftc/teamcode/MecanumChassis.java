@@ -53,12 +53,8 @@ public class MecanumChassis{
     public static DcMotor getRf(){
         return rf;
     }
-    public static DcMotor getLb(){
-        return lb;
-    }
-    public  static DcMotor getRb(){
-        return rb;
-    }
+    public static DcMotor getLb(){ return lb; }
+    public  static DcMotor getRb(){ return rb; }
 
 
 
